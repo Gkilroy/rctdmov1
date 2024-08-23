@@ -1,6 +1,15 @@
 Griffin Kilroy
 Todo List application through react, hosted on github
+Public website hosted through github that has a custom task management list with a contact us page. 
+The task management list allows users to write their own list of tasks or items that can be marked as completed. 
+There is a filtering option for all,completed, and un-completed.
 
+Technologies used: React Jsx, HTML5, CSS, React router Dom, React gh pages
+
+Future Improvements: 
+1. Find a longer character length allotment for tasks/items on list that will increase functionality.
+2. be able to export the list or offer simeultaneous editing on multiple devices
+3. Add priority/sensitivity on particular items that need to be completed sooner than others.
 
 Below is a list of troubleshooting/steps used to create the app:
 
