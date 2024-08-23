@@ -7,7 +7,8 @@ const list_array = [
     {id:2,name:"item two", completed:false},
     {id:3,name:"item three", completed:false},
     {id:4,name:"item four", completed:false},
-    {id:5,name:"item five", completed:false}
+    {id:5,name:"item five", completed:false},
+    {id:6,name:"item six", completed:false}
 ];
 
 const TodoList = (props) => {
