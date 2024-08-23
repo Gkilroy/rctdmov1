@@ -226,7 +226,7 @@ const TodoList = (props) => {
         <div>
             <div>
                 <input type="text" name="txtnewitem" 
-                    value={txtnewitem} maxLength={20} placeholder="* add item"
+                    value={txtnewitem} maxLength={30} placeholder="* add item"
                     onChange={(e)=>setTxtNewItem(e.target.value)}
                 />
                 {" "}
