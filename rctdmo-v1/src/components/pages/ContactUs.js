@@ -39,7 +39,7 @@ const ContactUs = (props) => {
                 || formfields.txtname.trim().length === 0
             )
             {
-                const _msgerr = "* please enter a valid name";
+                const _msgerr = "* Please enter a valid name.";
                 setFormFieldErrors((preval)=>({...preval,txtname:_msgerr}))
                 _form_err = true;
             }
@@ -47,7 +47,7 @@ const ContactUs = (props) => {
             if(formfields.txtemail === null || formfields.txtemail === undefined || formfields.txtemail === "" 
             || formfields.txtemail.trim().length === 0)
             {
-                const _msgerr = "* please enter a valid email";
+                const _msgerr = "* Please enter a valid E-mail.";
                 setFormFieldErrors((prevval)=>({...prevval,txtemail:_msgerr}))
                 _form_err = true;
             }
@@ -58,7 +58,7 @@ const ContactUs = (props) => {
                 setFormFields((preval)=>({...preval,txtname:""}));
                 setFormFields((preval)=>({...preval,txtemail:""}));
 
-                _msg = "* form submitted";
+                _msg = "* Form Submitted!";
                 setMsg(_msg);
             }
 
