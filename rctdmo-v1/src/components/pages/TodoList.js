@@ -5,9 +5,9 @@ import { useEffect, useState } from "react";
 const list_array = [
     {id:1,name:"item one", completed:false},
     {id:2,name:"item two", completed:false},
-    {id:3,name:"item three", completed:true},
+    {id:3,name:"item three", completed:false},
     {id:4,name:"item four", completed:false},
-    {id:5,name:"item five", completed:true}
+    {id:5,name:"item five", completed:false}
 ];
 
 const TodoList = (props) => {
