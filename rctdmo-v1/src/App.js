@@ -1,10 +1,9 @@
 import './App.css';
 import './AppIndex.css';
 import NavMenu from './components/NavMenu';
-//-- github pages webhost - router 
+
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-//-- localhost or other webhost - router 
-//import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Home from './components/pages/Home';
 import ContactUs from './components/pages/ContactUs';
 
