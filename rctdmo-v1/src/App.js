@@ -15,7 +15,7 @@ function App() {
         <NavMenu/>
         <div className='container'>        
           <Routes>
-            <Route path="/" element={<Home title="Demo Todo List App - 1.0.9" />}/>
+            <Route path="/" element={<Home title="Todo List App - 1.1.0" />}/>
             <Route path='/contact' element={<ContactUs/>}/>
             <Route path="*" element={
                 <>
