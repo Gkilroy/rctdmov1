@@ -1,4 +1,5 @@
 Griffin Kilroy
+Griffin.Kilroy@gmail.com
 Todo List application through react, hosted on github
 Public website hosted through github that has a custom task management list with a contact us page. 
 The task management list allows users to write their own list of tasks or items that can be marked as completed. 
