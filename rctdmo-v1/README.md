@@ -1,3 +1,9 @@
+Griffin Kilroy
+Todo List application through react, hosted on github
+
+
+Below is a list of troubleshooting/steps used to create the app:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
